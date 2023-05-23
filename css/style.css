@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    text-align: center;
+    padding: 2px;
+}
+
+header h1 {
+    font-size:xx-large;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    padding-right: 130px;
+}
+
+nav ul li {
+    padding-inline: 20px;
+    list-style: none;
+    text-align: center;
+    width: 50px;
+
+}
+
+nav ul li:hover {
+    background-color: aqua;
+    transition: 1s;
+    border-radius: 3px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size:medium;
+    color: black;
+}
+
+.container {
+    padding: 8px;
+
+}
+
+.category {
+    padding: 20px;
+
+}
+
+.category ul {
+    display: flex;
+    justify-content: center;
+}
+
+.category ul li {
+    padding-inline: 3px;
+    list-style: none;
+}
+
+.category ul li button {
+    text-decoration: none;
+    font-size: xx-large;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+.category p {
+    text-align: center;
+    padding: 8px;
+}
+
+.category button:hover {
+    background-color: aqua;
+    transition: 1s;
+}
+
+#img {
+    margin: 0px 200px 0px 200px;
+    height: 400px;
+
+}
+
+#img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+hr {
+    float: center;
+    border: 0;
+    border-radius: 3px;
+    border-top: 5px solid black;
+    margin: 0px 600px 0px 600px;
+}
+
+
+.more-info {
+    padding: 35px;
+
+
+    text-align: center;
+    width: auto;
+
+
+    
+}
+
+.info {
+    padding:1%;
+    margin: 0px 200px 0px 200px;
+    height: auto;
+
+}
+
+
+.info p {
+    text-indent: 2.0em;
+    display: block;
+    text-align: left;
+    font-size:medium;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+footer ul li {
+    padding: 3px;
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+
+}
+
+footer ul li a img {
+    width: 35px;
+}
+
+footer p {
+    text-align: center;
+}
+
+
